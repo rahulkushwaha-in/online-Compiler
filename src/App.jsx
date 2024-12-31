@@ -85,7 +85,7 @@ function App() {
           <div className="flex items-center gap-2">
             <Code2 className="text-blue-500" />
             <h1 className={`text-xl font-bold ${theme === 'vs-light' ? 'text-gray-900' : 'text-white'}`}>
-              Online JavaScript Compiler
+              Node.js Compiler
             </h1>
           </div>
           <div className="flex-1" />

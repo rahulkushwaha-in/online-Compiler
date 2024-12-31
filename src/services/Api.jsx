@@ -2,7 +2,7 @@
 const apiUrl = import.meta.env.VITE_API_URL;
 export async function executeCode(code) {
   try {
-    const response = await fetch("https://js-compiler-backend.onrender.com:10000/nodejs", {
+    const response = await fetch("https://js-compiler-backend.onrender.com/nodejs", {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
